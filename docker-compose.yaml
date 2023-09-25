@@ -21,7 +21,7 @@ services:
   service2:
     build: ./service2
     ports:
-      - "5000:80"
+      - "5001:80"
     depends_on:
       - postgres
 
